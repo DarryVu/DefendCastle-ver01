@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: de180076be98c02419394d2ea75a30d8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - firepoint: {instanceID: 0}
+  - fireballSound: {fileID: 8300000, guid: a652877b012108e41871f867ada9f176, type: 3}
+  - boxCollider: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
