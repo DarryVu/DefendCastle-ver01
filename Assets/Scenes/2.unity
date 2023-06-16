@@ -1673,7 +1673,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 58.233887, y: -30.883087}
+  m_AnchoredPosition: {x: 58.233887, y: -30.883057}
   m_SizeDelta: {x: -116.46777, y: 61.766113}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &323451887
@@ -3999,7 +3999,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 58.233887, y: -30.883087}
+  m_AnchoredPosition: {x: 58.233887, y: -30.883057}
   m_SizeDelta: {x: -116.46777, y: 61.766113}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &925143805
@@ -8127,6 +8127,10 @@ PrefabInstance:
     - target: {fileID: 9111871009957042738, guid: c759b7d625734e44ab8c4bfd5d29aec7, type: 3}
       propertyPath: timeSpawn
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9111871009957042738, guid: c759b7d625734e44ab8c4bfd5d29aec7, type: 3}
+      propertyPath: checkSpawnEnemy
+      value: -2.2
       objectReference: {fileID: 0}
     - target: {fileID: 9111871009957042738, guid: c759b7d625734e44ab8c4bfd5d29aec7, type: 3}
       propertyPath: prefabs.Array.size

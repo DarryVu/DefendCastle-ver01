@@ -6,8 +6,7 @@ public class SpawnEnemy : MonoBehaviour
 {
     [SerializeField] private GameObject[] prefabs;
     [SerializeField] private float timeSpawn;
-    [SerializeField] private float mintras;
-    [SerializeField] private float maxtras;
+    private float checkSpawnEnemy = -2.2f;
 
     private void Start()
     {
@@ -17,8 +16,7 @@ public class SpawnEnemy : MonoBehaviour
     {
         while(true)
         {
-            var wanted = Random.Range(mintras, maxtras);
-            var position = new Vector3(transform.position.x, wanted);
+            var position = new Vector3(transform.position.x, checkSpawnEnemy);
             GameObject gameObject = Instantiate(prefabs[Random.Range(0, prefabs.Length)], position, Quaternion.identity);
             yield return new WaitForSeconds(timeSpawn);       
         }
