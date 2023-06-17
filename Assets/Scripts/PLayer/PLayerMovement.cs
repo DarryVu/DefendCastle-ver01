@@ -44,8 +44,8 @@ public class PLayerMovement : MonoBehaviour
 
     public void Movement()
     {
-        dirX = joystick.Horizontal;
-       // dirX = Input.GetAxisRaw("Horizontal");
+        //dirX = joystick.Horizontal;
+        dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * speed, rb.velocity.y);
         //flip
         if(dirX > 0f)
