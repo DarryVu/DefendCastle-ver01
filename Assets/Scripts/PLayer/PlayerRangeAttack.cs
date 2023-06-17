@@ -58,10 +58,11 @@ public class PlayerRangeAttack : MonoBehaviour
             healthEnemy = hit.transform.GetComponent<HealthEnemy>();
         return hit.collider != null;
     }
-    private void OnDrawGizmoz()
+    private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(boxCollider.bounds.center, boxCollider.bounds.size);
+        Gizmos.DrawWireCube(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance,
+            new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z));
     }
 
     private void DamageEnemy()

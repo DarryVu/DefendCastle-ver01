@@ -235,10 +235,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackCooldown: 1
-  range: 0.7
+  range: 0.98
   damage: 5
   audioAttack: {fileID: 8300000, guid: 323e15cfe809e114ab92c9f4b25e8bc2, type: 3}
-  colliderDistance: 1
+  colliderDistance: 1.67
   boxCollider: {fileID: 8170753986687289302}
   playerLayer:
     serializedVersion: 2

@@ -156,7 +156,7 @@ MonoBehaviour:
   - {fileID: 7887993973849051488}
   - {fileID: 5559576427309006075}
   fireballSound: {fileID: 8300000, guid: a652877b012108e41871f867ada9f176, type: 3}
-  colliderDistance: 0.4
+  colliderDistance: 0.5
   boxCollider: {fileID: 1086531062727187296}
   playerLayer:
     serializedVersion: 2

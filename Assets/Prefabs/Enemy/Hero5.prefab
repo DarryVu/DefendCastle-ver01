@@ -177,7 +177,7 @@ MonoBehaviour:
   range: 0.7
   damage: 4
   audioAttack: {fileID: 8300000, guid: 323e15cfe809e114ab92c9f4b25e8bc2, type: 3}
-  colliderDistance: 1
+  colliderDistance: 1.23
   boxCollider: {fileID: 3837851313070307937}
   playerLayer:
     serializedVersion: 2
